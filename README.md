@@ -1,16 +1,69 @@
-## Hi there 👋
+# 🚀 문제 해결과 안정성을 지향하는 Backend Developer  
+**“문제는 숨기지 않고, 근거로 해결한다.”**
 
-<!--
-**luckhee/luckhee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+백엔드에서 발생하는 지연·에러·병목을 **데이터 기반으로 추적하고 해결하는 개발자**입니다.  
+수치를 기준으로 목표를 세우고, 원인을 구조적으로 제거하며, 테스트를 통해 재발 가능성을 통제하는 방식으로 개발합니다.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Focus
+- **Java / Spring Boot / JPA / QueryDSL**
+- **MySQL, Redis, RabbitMQ**
+- **WebSocket / TCP / Cache Strategy**
+- **Sentry 기반 에러 분석 / TDD / 테스트 자동화**
+- **Stack Trace 기반 성능·에러 원인 분석**
+
+---
+
+## 📊 대표 프로젝트
+
+---
+
+### 🔹 특허바다 (무형재산권 거래 중개 플랫폼)
+**역할:** 실시간 채팅 개발, 성능 병목 제거, 안정성 개선  
+**기술:** Java, MySQL, TCP, WebSocket, Redis Pub/Sub, RabbitMQ, 캐시, Stack Trace 분석
+
+**성과**
+- API 조회 속도 **2.18초 → 22ms (99% 개선)**
+- GC 횟수 **160회 → 23회 (83% 감소)** — JVM 힙 메모리 최적화 결과
+- N+1 문제 해결 (**Fetch Join**, Lazy 로딩 조정)
+- SSE와 WebSocket 비교 분석 후 WebSocket 채택 및 구조 설계
+
+**GitHub:** https://github.com/luckhee/patent_Backend
+
+---
+
+### 🔹 잡메이트 (청소년 IT 직업 탐색 플랫폼)
+**역할:** 에러 분석·문서화, 예외 처리 레벨 세분화, 게시글 기능 개발  
+**기술:** Java, MySQL, Sentry, 예외 처리 구조 설계, TDD, Fixture, Facade 패턴
+
+**성과**
+- Sentry 도입 → QA 단계 **259건 오류 수집·분석**
+- “엔드포인트 - 입력값 - 원인” 문서화 → **에러 대응 속도 대폭 단축**
+- 예외 처리 레벨 구분 → **오류 지점 추적성 개선**
+- 게시글/커뮤니티 기능 개발
+
+**GitHub:** https://github.com/luckhee/WEB6_8_FiveLogic_BE
+
+---
+
+## 🧠 개발 철학
+### 1) 데이터로 판단한다.  
+감이 아니라 **수치·로그·스택트레이스**로 문제를 정의하고 해결한다.
+
+### 2) 문제는 숨기지 않는다.  
+에러는 감추지 않고 **노출·분류·문서화**해야 해결 속도가 올라간다.
+
+### 3) 테스트는 안정성의 기준이다.  
+테스트는 문제의 재발을 막는 장치이며, 구조적 안정성을 확보하는 핵심이다.
+
+### 4) 기술 선택에는 이유가 있어야 한다.  
+성능, 안정성, 유지보수성을 기준으로 **선택 → 실험 → 적용**의 흐름을 따른다.
+
+---
+
+## 📈 What I Do Best
+- 성능 병목 지점 **찾고 고치기**
+- 원인 중심 **에러 분석 및 테스트 기반 안정성 확보**
+
+---
